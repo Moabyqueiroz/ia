@@ -1,0 +1,28 @@
+body {
+    
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+    background-color: #121214;
+    color: #fff;
+
+    width: 100%;
+    height: 100vh;
+
+/* oque tiver dentro será comportado como caixas */ 
+
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+body,
+button,
+input { 
+    font-family: 'Chivo Mono', monospace;
+    font-family: 'Roboto', sans-serif;
+
+}
